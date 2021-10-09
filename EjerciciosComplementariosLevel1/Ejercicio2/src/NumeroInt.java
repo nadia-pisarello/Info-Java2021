@@ -3,7 +3,7 @@ import java.util.*;
 public class NumeroInt {
     public static void main(String[] args) {
         int numero1, numero2 = 0;
-        System.out.println("Ingrese dos números");
+        System.out.println("Ingrese dos números enteros: ");
         Scanner num1 = new Scanner(System.in);
         Scanner num2 = new Scanner(System.in);
         numero1 = num1.nextInt();

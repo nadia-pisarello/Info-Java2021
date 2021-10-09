@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Incremento {
     public static void main(String[] args) {
-        System.out.println("Ingrese un numero");
+        System.out.println("Ingrese un numero: ");
         Scanner scan = new Scanner(System.in);
         int num1 = scan.nextInt();
         scan.close();
