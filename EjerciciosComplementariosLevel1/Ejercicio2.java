@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class NumeroInt {
+public class Ejercicio2 {
     public static void main(String[] args) {
         int numero1, numero2 = 0;
         System.out.println("Ingrese dos números enteros: ");

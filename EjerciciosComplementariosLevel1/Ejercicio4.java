@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Factorial {
+public class Ejercicio4 {
     public static void main(String[] args) {
         System.out.print("Ingrese un número entero: ");
         Scanner scan = new Scanner(System.in);
@@ -17,4 +17,3 @@ public class Factorial {
         }
     }
 }
-
