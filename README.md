@@ -121,8 +121,11 @@ Córdoba
 Resistencia
 
 **Output (Salida):**
+
 \#1 - Bariloche
+
 \#2 - Córdoba
+
 \#3 - Resistencia
 
 2. Crear un ArrayList, agregar 5 números enteros. Luego, agregar un número
