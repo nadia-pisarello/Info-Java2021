@@ -1,4 +1,4 @@
-# Informatorio - Java - 2021
+# Informatorio 2021 - Java
 
 ## Enunciados de los ejercicios resueltos
 
@@ -121,9 +121,9 @@ Córdoba
 Resistencia
 
 **Output (Salida):**
-#1 - Bariloche
-#2 - Córdoba
-#3 - Resistencia
+\#1 - Bariloche
+\#2 - Córdoba
+\#3 - Resistencia
 
 2. Crear un ArrayList, agregar 5 números enteros. Luego, agregar un número
 entero al principio de la lista y otro al final. Por último, iterar e imprimir los
