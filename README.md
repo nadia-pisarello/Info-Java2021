@@ -8,9 +8,11 @@
 mensaje “HOLA {USUARIO}!!!”
 
 **Input (Entrada):**
+
 Obi Wan Kenobi
 
 **Output (Salida):**
+
 HOLA Obi Wan Kenobi
 
 2. Realizar un programa que solicite por consola 2 números enteros. Para luego
@@ -18,14 +20,21 @@ imprimir el resultado de la suma, resta, multiplicación, división y módulo (r
 de la división) de ambos números.
 
 **Input (Entrada):**
+
 5
+
 4
 
 **Output (Salida):**
+
 5 + 4 = 9
+
 5 - 4 = 1
+
 5 * 4 = 20
+
 5 / 4 = 1
+
 5 % 4 = 1
 
 3. Confeccionar un programa que dado un número entero como dato de
@@ -33,13 +42,19 @@ entrada imprima la secuencia de números (incrementos de 1) de la siguiente
 forma:
 
 **Input (Entrada):**
+
 5
 
 **Output (Salida):**
+
 1
+
 1 2
+
 1 2 3
+
 1 2 3 4
+
 1 2 3 4 5
 
 4. Realizar un programa que calcule el factorial de un número:
@@ -47,29 +62,37 @@ n! = 1 x 2 x 3 x 4 x 5 x … x (n-1) x n.
 Sin hacer uso de librerías.
 
 **Input (Entrada):**
+
 5
 
 **Output (Salida):**
+
 El factorial de 5 es: 120
 
 5. Se desea una aplicación que solicite 2 números enteros y realice la operación
 de multiplicación por sumas sucesivas (sin uso de librerías).
 
 **Input (Entrada):**
+
 2
+
 3
 
 **Output (Salida):**
+
 2 x 3 = 6
 
 6. Se desea una aplicación que solicite 2 números enteros y realice la operación
 de potencia (sin uso de librerías).
 
 **Input (Entrada):**
+
 3
+
 3
 
 **Output (Salida):**
+
 3 elevado a 3 = 27
 
 7. Realizar un programa que dado un String de entrada en minúsculas lo
@@ -77,37 +100,53 @@ convierta por completo a mayúsculas. Sin uso de métodos o librerías que
 realicen toUppercase().
 
 **Input (Entrada):**
+
 informatorio
 
 **Output (Salida):**
+
 INFORMATORIO
 
 8. Crear una aplicación que solicite de entrada los datos de una persona en este
 orden:
+
 Nombre y Apellido
+
 Edad
+
 Dirección
+
 Ciudad
+
 Luego imprimirá el siguiente mensaje:
+
 {Ciudad} - {Dirección} - {Edad} - {Nombre y Apellido}
 
 **Input (Entrada):**
+
 Homero Simpson
+
 48
+
 Calle Falsa 1234
+
 Springfield
 
 **Output (Salida):**
+
 Springfield - Calle Falsa 1234 - 48 - Homero Simpson
 
 9. Dado un String de entrada (frase, texto, etc) calcular la cantidad de veces que
 aparece una letra dada.
 
 **Input (Entrada):**
+
 Hola Informatorio Java 2020.
+
 a
 
 **Output (Salida):**
+
 4
 
 ### **EJERCICIOS - LEVEL 2**
@@ -116,9 +155,13 @@ a
 imprimir por pantalla el ranking
 
 **Input (Entrada):**
+
 Bariloche
+
 Córdoba
+
 Resistencia
+
 
 **Output (Salida):**
 
@@ -151,20 +194,28 @@ empleado. Se debe generar otra lista que contenga los totales y luego
 imprimir el total final a cobrar.
 
 **Input (Entrada):**
+
 [6, 7, 8, 4, 5]
+
 [350, 345, 550, 600, 320]
 
 Los arrays son iguales y corresponden a los días trabajados de una semana Lun-Vie.
 
 **Output (Salida):**
+
 [2100, 2415, 4400, 2400, 1600]
+
 Total Final: $ 12915
 
 6. Se dispone de una lista de Empleados, de cada empleado se conoce:
 ○ Nombre y Apellido
+
 ○ DNI
+
 ○ horasTrabajadas
+
 ○ valorPorHora
+
 Todos los empleados están cargados en un Set (HashSet), se desea calcular el
 sueldo (horasTrabajadas x valorPorHora) de toda esa lista para luego
 almacenar en un Map (o Diccionario) donde la clave (key) es el dni y el valor
@@ -180,9 +231,13 @@ segundo con qué valor debe frenar (no se incluye en el cálculo)
 Ejemplo: (1, 5) ----> calculará valores de 1, 2, 3, 4
 
 **Input (Entrada):**
+
 fizzBuzzFuncion(1,6) // 6 si marca el límite y no se lo incluye
+
 fizzBuzzFuncion(1,8)
 
 **Output (Salida):**
+
 [“1”, “Fizz”, “Buzz”, “Fizz”, 5]
+
 [“1”, “Fizz”, “Buzz”, “Fizz”, “5”, “FizzBuzz”, “7”]
