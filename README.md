@@ -208,6 +208,7 @@ Los arrays son iguales y corresponden a los días trabajados de una semana Lun-V
 Total Final: $ 12915
 
 6. Se dispone de una lista de Empleados, de cada empleado se conoce:
+
 ○ Nombre y Apellido
 
 ○ DNI
