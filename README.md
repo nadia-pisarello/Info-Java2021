@@ -183,3 +183,66 @@ fizzBuzzFuncion(1,8)
 **Output (Salida):**
 [“1”, “Fizz”, “Buzz”, “Fizz”, 5]
 [“1”, “Fizz”, “Buzz”, “Fizz”, “5”, “FizzBuzz”, “7”]
+
+
+### **EJERCICIOS - LEVEL 3**
+1. Dada una lista que contiene valores de tipo String, se deberá filtrar todos los
+valores que NO sean null o vacío ("").
+
+**Input (Entrada):**
+List<String> palabras = new ArrayList<>();
+palabras.add("Hola");
+palabras.add(null);
+palabras.add("Informatorio");
+palabras.add("");
+
+**Output (Salida):**
+["Hola", "Informatorio"]
+
+2. Dada una lista que contiene números enteros, se deberá generar otra lista que
+contendrá el resultado de aplicar la operación de potencia a 2.
+
+**Input (Entrada):**
+List<Integer> palabras = List.of(1, 2, 3, 4, 5);
+
+**Output (Salida):**
+[1, 4, 9, 16, 25]
+
+3. Se dispone de una lista de Strings, de la cual saber la cantidad de valores que
+comiencen con la letra B (tanto mayúscula como minúscula, en ese caso
+decimos que será ignoreCase).
+
+**Input (Entrada):**
+List<String> palabras = List.of("Batman", "Aquaman", "Flash", "Batgirl",
+"Wonder Woman", "brainiac",);
+
+**Output (Salida):**
+3
+
+4. Se dispone de una lista de Integer, de la cual queremos obtener otra lista
+aplicando la operación de factorial pero no se desean valores repetidos.
+
+**Input (Entrada)**
+List<Integer> palabras = List.of(1, 2, 4, 4, 4);
+
+**Output (Salida):**
+[1, 2, 24]
+
+5. Se posee una Lista con objetos de clase Alumno con los atributos: apellido,
+nombre y fechaDeNacimiento (con tipos: String, String y LocalDate). Se desea
+generar un Map<String, Integer> donde la clave de Map será el apellido
+concatenado con el nombre (con separador de espacio en blanco) y el value la
+edad del alumno.
+● La lista de entrada debe estar cargada con varios alumnos (al menos 5)
+para subir el ejemplo y demostrar su funcionamiento.
+● En ejemplo se muestra solo con 1 Alumno a modo de abreviar
+● En el ejemplo también se usa LocalDate.now().minusYears(30), en el
+ejercicio a presentar se deberá usar otra tecnica de construcción para la
+fecha (no usar .now(). Pueden ver métodos .parse(), etc)
+
+**Input (Entrada)**
+List<Alumno> alumnos = List.of(new Alumno("Homero", "Simpson",
+LocalDate.now().minusYears(30)));
+
+**Output (Salida):**
+{"Simpson Homero"=30}
